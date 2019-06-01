@@ -12,8 +12,8 @@ int main() {
    length = strlen(msg);
    cout<<"Enter your choice \n1. Encryption \n2. Decryption \n";
    cin>>choice;
-   if (choice==1) //for encryption{
-      char ch;
+   if (choice==1) //for encryption newwww project
+      char ch; 
       for(int i = 0; msg[i] != '\0'; ++i) {
          ch = msg[i];
          //encrypt for lowercase letter
@@ -34,6 +34,7 @@ int main() {
          }
       }
       printf("Encrypted message: %s", msg);
+//This block of code will run the decription
 
 if(choice == 2) 
    { //for decryption
